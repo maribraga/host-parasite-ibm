@@ -1,0 +1,8 @@
+1000			 !	Read(60,*) ntime = number of generations
+11  0.5     	 !	Read(60,*) nhost,  sdr = number of hosts, standard deviation for survival on host
+50  4  			 !	Read(60,*) ncarry, noff = carrying capacity per host, number of offspring
+200  5   		 !	Read(60,*) ngenoma, nG = genome size, recognition threshold
+0.0001    		 !	Read(60,*) rmu = mutation rate 
+0.4  2.0   0.4   !  Distance between hosts (min, max and delta)
+0.3  0.31  0.1	 !  Probing probability (min, max and delta) 	
+200   		 	 !  nlag = time window to save data 
